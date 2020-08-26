@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- meta settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <!-- title -->
+    <title>Card Party Game</title>
+
+    <!-- js -->
+    <script src="mainJS.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="mainCSS.css">
+</head>
+
+<body>
+    <header>
+        &hearts;
+        &spades;
+        Let's Luck It Out
+        &diams;
+        &clubs;
+    </header>
+
+    <section class="players">
+        <div class="centercard">
+            <div class="playertitle">Player 1</div>
+			<div class="card">
+				<div class="topcard"><br>
+					<label class="cardnum" id="playerOnecardnum1"></label>
+                    <label class="char" id="playerOnechar1"></label>
+				</div>
+				<div class="card">
+					<div class="topcard"><br>
+						<label class="cardnum" id="playerOnecardnum2"></label>
+						<label class="char" id="playerOnechar2"></label>
+					</div>
+					<div class="card">
+						<div class="topcard"><br>
+							<label class="cardnum" id="playerOnecardnum3"></label>
+							<label class="char" id="playerOnechar3"></label>
+						</div>
+						<div class="middlecard">
+							<label id="playerOnebigchar" class="bigchar"></label>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+		<div class="centercard">
+            <div class="playertitle">Player 2</div>
+			<div class="card">
+				<div class="topcard"><br>
+					<label class="cardnum" id="playerTwocardnum1"></label>
+                    <label class="char" id="playerTwochar1"></label>
+				</div>
+				<div class="card">
+					<div class="topcard"><br>
+						<label class="cardnum" id="playerTwocardnum2"></label>
+						<label class="char" id="playerTwochar2"></label>
+					</div>
+					<div class="card">
+						<div class="topcard"><br>
+							<label class="cardnum" id="playerTwocardnum3"></label>
+							<label class="char" id="playerTwochar3"></label>
+						</div>
+						<div class="middlecard">
+							<label id="playerTwobigchar" class="bigchar"></label>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+		<div class="centercard">
+            <div class="playertitle">Player 3</div>
+			<div class="card">
+				<div class="topcard"><br>
+					<label class="cardnum" id="playerThreecardnum1"></label>
+                    <label class="char" id="playerThreechar1"></label>
+				</div>
+				<div class="card">
+					<div class="topcard"><br>
+						<label class="cardnum" id="playerThreecardnum2"></label>
+						<label class="char" id="playerThreechar2"></label>
+					</div>
+					<div class="card">
+						<div class="topcard"><br>
+							<label class="cardnum" id="playerThreecardnum3"></label>
+							<label class="char" id="playerThreechar3"></label>
+						</div>
+						<div class="middlecard">
+							<label id="playerThreebigchar" class="bigchar"></label>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+		<div class="centercard">
+            <div class="playertitle">Player 4</div>
+			<div class="card">
+				<div class="topcard"><br>
+					<label class="cardnum" id="playerFourcardnum1"></label>
+                    <label class="char" id="playerFourchar1"></label>
+				</div>
+				<div class="card">
+					<div class="topcard"><br>
+						<label class="cardnum" id="playerFourcardnum2"></label>
+						<label class="char" id="playerFourchar2"></label>
+					</div>
+					<div class="card">
+						<div class="topcard"><br>
+							<label class="cardnum" id="playerFourcardnum3"></label>
+							<label class="char" id="playerFourchar3"></label>
+						</div>
+						<div class="middlecard">
+							<label id="playerFourbigchar" class="bigchar"></label>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <!--div></div-->
+		<div class="winpointer">
+            <label>Winner</label>
+			<br><br><br><br><br>
+            <div id="winnername"></div>
+        </div>
+		
+    </section>
+    
+    <br><br><br>
+	<br><br><br>
+	<br><br>
+	<div>
+		<p class="dealbreaker" id="deal"></p>
+		<button id="mainbtn" onclick="lotocards();">Deal</button>
+	</div>
+	
+    <div class="resetbtn"><a id="resetbtn" onclick="location.reload();">↺</a></div>
+
+    <footer>
+		<div class="copyright">Ira Shrivastava© 2020</div>
+    </footer>
+
+    
+
+</body>
+</html>
