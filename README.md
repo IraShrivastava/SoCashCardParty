@@ -31,3 +31,6 @@ What we're interested to see:
 4. Use core libraries (For e.g., for Java: Mockito, junit, logging framework additions are fine)
 5. Don't use a database, Keep it simple for now.
 6. We expect to see your best effort for the code turned in. Think production ready.
+
+To Execute
+Run the HTML file
